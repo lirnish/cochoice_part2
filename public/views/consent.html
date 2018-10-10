@@ -1,0 +1,68 @@
+<html>
+
+<head>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<link rel="stylesheet" href="coChoice_draft.css">
+	
+</head>
+
+<body>
+
+		<div class="slide" id="start">
+  		
+  			<p class="block-text">
+  				Welcome to the experiment! We are interested in studying how groups of individuals make decisions.This study involves answering questions about yourself and making decisions.
+			</p>
+
+  			<p class="block-text">
+				Please note that you will be compensated for completing this HIT only <b><u>ONCE.</b></u> You will <b><u>NOT</b></u> be paid for additional HITs.
+			</p>
+
+  			<button type="button" id = "next" onclick="this.blur(); showSlide("consent");">Continue</button>
+
+	    </div>	 
+
+	    <div class="slide" id="consent">
+
+	    	<h1>Consent Form </h1>
+
+	    	<p class="block-text">
+	    		
+				You are invited to participate in a study that is being conducted by Dr. William Cunningham of the Psychology Department at the University of Toronto. Your participation is entirely voluntary. You may stop the study at any time and you have the right to refuse to answer any question without penalty. Anyone who withdraws from the study prior to its completion or asks to have their responses deleted will still receive compensation. <br>
+
+				NOTE: To participate in our study, you must be at least 18 years of age and have corrected-to-normal vision.<br><br>
+
+				By selecting to continue below, you indicate that you understand, and agree with, the following points:<br>
+
+				1) The purpose of this research is to examine people’s judgments, decisions, evaluations, and recall of affective stimuli.<br>
+
+				2) The procedure will be as follows: During a single session lasting around 30 minutes, you will be asked to make evaluations and decisions regarding stimuli in a computerized task. The task may involve the following: making decisions between competing goals in your environment, making decisions or evaluations regarding visual stimuli, or participating in a computer-based task measuring higher cognitive functioning. You may also be asked to complete a set of personality questionnaires depending on the research questions of the study in which you are participating.<br>
+
+				3) There is no risk in this study.<br>
+
+				4) The benefits of participating in this study are: (a) greater understanding of social and cognitive psychological research, (b) compensation of up to $4.50 ($1.50 base rate, and the potential to earn up to an additional $3.00 depending on the participant's performance).<br>
+
+				5) The data you provide will be confidential and will not be released in any individually identifiable form. Data will be available to Dr. Cunningham and other researchers. All data and analyses will be coded by participant number rather than by name. Data will be stored in a locked and secure location.<br>
+
+				6) The results of this research may be published in a scholarly publication and/or reported in a scientific presentation, in which case, the identity of all participants will remain fully confidential.<br>
+
+				7) If you have any questions or concerns, the researchers will be happy to address them. Please email manager.cunningham@gmail.com.<br>
+
+				8) Upon completion of the study, you will receive a full written explanation of the rationale and predictions underlying this study. <br>
+
+				9) If you are interested in receiving feedback about the study results, please contact the researchers at manager.cunningham@gmail.com. However, please note that we will only provide aggregated data (group means), not individualized results.<br>
+
+				10) If you have questions about your rights as a research participant, or would like to speak with someone not directly involved in the study, please feel free to contact the Office of Research Ethics (ethics.review@utoronto.ca, 416-946-3273). We encourage you to save or print a copy of this consent form for your records. <br>
+
+				11) Please note that the Human Research Ethics Program may have confidential access to data to help ensure that participant protection procedures are followed.<br>
+
+				12) In rare cases, participants may find some of the stimuli included in the studies to be emotionally evocative or uncomfortable. If you are concerned about the nature of the content in this study, you may contact the Office of Research Ethics at the University of Toronto by telephoning (416) 946-3273 or by sending email to ethics.review@utoronto.ca. <br>
+	    	</p>
+	    	  <input type="radio" name="consent" value="yes" onclick="window.location = 'experiment'"> I consent to participate in this study<br>
+ 			  <input type="radio" name="consent" value="no" > I do NOT consent to participate in this study<br>
+
+	    </div>
+	    <script src="coChoice_draft.js"></script>
+</body>
+
+</html>
